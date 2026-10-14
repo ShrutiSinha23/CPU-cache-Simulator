@@ -1,0 +1,13 @@
+# Compiled executables
+exe
+exe.exe
+*.o
+*.obj
+
+# Generated simulator output
+cache_sim_output
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db

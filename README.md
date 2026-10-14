@@ -130,14 +130,4 @@ The replacement policy operates independently within each set.
 - The cache uses dynamically allocated arrays and manual memory management.
 - The simulator models cache lookups and replacement, not actual hardware timing, cache-line byte offsets, or memory read/write operations.
 
-## Possible Improvements
 
-- Validate cache configuration and handle invalid command-line arguments more robustly.
-- Improve input parsing to report malformed input explicitly.
-- Add unit tests for hits, misses, collisions, and replacement behavior.
-- Report aggregate statistics such as hit rate and miss rate.
-- Use standard containers such as `std::vector` to simplify memory management.
-
-## License
-
-Add a license before distributing or publishing the project. If this code is based on another repository or assignment, preserve the applicable attribution and license terms.
